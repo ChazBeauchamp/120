@@ -1,0 +1,1 @@
+In this repository you can find all of the project files I created as part of the Web Programming and Engineering course I underwent at Tufts University. Proj1 implements a website for a fictional band, while Proj2 implements the popular game Wordle
