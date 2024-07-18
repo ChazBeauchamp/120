@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaz's Wordle</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Wordle</h1>
+    <h2>by the Beauchamp Times</h2>
+
+    <main>
+        <div id="game-board">
+            <!-- row 1 -->
+            <div class="word-row">
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+            </div>
+            <!-- 2 -->
+            <div class="word-row">
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+            </div>
+            <!-- 3 -->
+            <div class="word-row">
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+            </div>
+            <!-- 4 -->
+            <div class="word-row">
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+            </div>
+            <!-- 5 -->
+            <div class="word-row">
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+            </div>
+            <!-- 6 -->
+            <div class="word-row">
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+            </div>
+            <br>
+        </div>
+
+        <div id="input-area">
+            <input type="text" id="guess-input" placeholder="Enter your guess">
+            <button id="submit-guess">Submit</button>
+        </div>
+
+        <div id="message-area"></div>
+
+        <button id="restart-game" style="display: none;">Restart Game</button>
+
+        <div id="used-letters"></div>
+    </main>
+
+    <script src="index.js" defer></script>
+</body>
+</html>
