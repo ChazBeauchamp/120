@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - The Electric Fireflies</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .contact {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .contact h2 {
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        .form {
+            margin-bottom: 20px;
+        }
+
+        .form label {
+            display: block;
+            color: #fff;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .form input,
+        .form textarea {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .form textarea {
+            height: 150px;
+        }
+
+        .form button {
+            background-color: #ff6b6b;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contact">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <div class="form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <div class="form">
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 The Electric Fireflies. All rights reserved.</p>
+    </footer>
+
+    <div class="social-media">
+        <a href="https://www.instagram.com/notelectricfireflies/">
+            <img src="ig.jpg" alt="Instagram"></a>
+        <a href="https://x.com/notelectricfireflies">
+            <img src="twitter.jpg" alt="Twitter"></a>
+        <a href="https://www.facebook.com/notelectricfireflies">
+            <img src="facebook.jpg" alt="Facebook"></a>
+        <a href="https://www.youtube.com/notelectricfireflies">
+            <img src="yt.jpg" alt="YouTube"></a>
+    </div>
+</body>
+</html>
